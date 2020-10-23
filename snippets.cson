@@ -17,3 +17,6 @@
   'for e in mylist':
     'prefix': 'forl'
     'body': 'for ${1:e} in ${2:mylist}:\n\tpass'
+  'import requests':
+    'prefix': 'imreq'
+    'body': 'import requests\n'
