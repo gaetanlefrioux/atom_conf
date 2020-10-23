@@ -1,0 +1,19 @@
+'.source.python':
+  'import pandas':
+    'prefix': 'impd'
+    'body': 'import pandas as pd\n'
+  'import numpy':
+    'prefix': 'imnp'
+    'body': 'import numpy as np\n'
+  'import json':
+    'prefix': 'imjson'
+    'body': 'import json\n'
+  'import math':
+    'prefix': 'immath'
+    'body': 'import math\n'
+  'for i in range':
+    'prefix': 'forr'
+    'body': 'for i in range(${1:n}):\n\tpass'
+  'for e in mylist':
+    'prefix': 'forl'
+    'body': 'for ${1:e} in ${2:mylist}:\n\tpass'
