@@ -1,4 +1,7 @@
 '.source.python':
+  'import datetime':
+    'prefix': 'imdate'
+    'body': 'import datetime as datetime\n'
   'import pandas':
     'prefix': 'impd'
     'body': 'import pandas as pd\n'
